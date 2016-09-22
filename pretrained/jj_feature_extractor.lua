@@ -112,7 +112,7 @@ function main()
 
     for i = 1,data:size(1) do
 
-        new_data[i] = transform( data[i] )
+        tmp_data[i] = transform( data[i] )
     end
 
     data = tmp_data
